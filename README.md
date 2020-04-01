@@ -2,7 +2,7 @@
 > A light Jekyll custom plugin to get keys from a hash
 
 [![Made with Ruby](https://img.shields.io/badge/Made%20with-Ruby-blue.svg)](https://ruby-lang.org)
-[![ISC license](https://img.shields.io/badge/License-ISC-blue.svg)](https://github.com/MichaelCurrin/jekyll-keys-filter/blob/master/LICENSE)
+[![ISC license](https://img.shields.io/badge/License-ISC-blue.svg)](#license)
 
 
 ## Sample usage
@@ -42,3 +42,10 @@ That plugin uses standard Ruby functionality of getting keys from a hash makes i
 
 - [Jekyll filter](https://jekyllrb.com/docs/liquid/filters/) docs.
 - [Jekyll plugin](https://jekyllrb.com/docs/plugins/) docs, including how to write your own.
+
+
+## License
+
+Copyright for [keys-filter.rb](/keys-filter.rb) is held by [dalenys](https://github.com/dalenys/), 2016. All other copyright is held by [MichaelCurrin](https://github.com/MichaelCurrin/), 2020.
+
+- [LICENSE](/LICENSE)
