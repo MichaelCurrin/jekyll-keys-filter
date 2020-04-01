@@ -1,14 +1,36 @@
-jekyll-keys-filter ![License badge][license-img]
-===============================================
+# Jekyll Keys Filter
 
-This plugins allows you to get all keys from a hash
+[![Made with Ruby](https://img.shields.io/badge/Made%20with-Ruby-blue.svg)](https://ruby-lang.org)
+[![ISC license](https://img.shields.io/badge/License-ISC-blue.svg)](https://github.com/MichaelCurrin/jekyll-keys-filter/blob/master/LICENSE)
+
+A Jekyll plugin to get keys from a hash. This adds standard Ruby functionality as a Jekyll filter.
+
 
 ## Installation
 
-Just copy this whole file in the `_plugins` directory of your `jekyll` project.
+In your Jekyll project, create a file at `_plugins/keys-filter.rb`.
 
-## TODO
+Copy the contents of [keys-filter.rb](/keys-filter.rb) to the file.
 
-Unit test me!
 
-[license-img]: https://img.shields.io/badge/license-ISC-blue.svg
+## Usage
+
+```
+{{ my_hash | keys }}
+```
+
+## Sample usage
+
+Jekyll templating:
+
+```
+{% assign my_hash =  {'foo': 'bar', 'baz': 'buzz'} %}
+
+{{ my_hash | keys | join: ', ' }}
+```
+
+Rendered content:
+
+```
+foo, baz
+```
