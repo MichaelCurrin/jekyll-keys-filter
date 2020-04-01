@@ -8,9 +8,9 @@ A Jekyll plugin to get keys from a hash. This adds standard Ruby functionality a
 
 ## Installation
 
-In your Jekyll project, create a file at `_plugins/keys-filter.rb`.
+In your Jekyll project, create a file as `_plugins/keys-filter.rb`.
 
-Copy the contents of [keys-filter.rb](/keys-filter.rb) to the file.
+Copy the contents of [keys-filter.rb](/keys-filter.rb) to it.
 
 
 ## Usage
