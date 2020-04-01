@@ -1,5 +1,5 @@
 # Jekyll Keys Filter
-> A light Jekyll custom plugin to get keys from a hash
+> A light copy-and-paste Jekyll plugin to get keys from a hash
 
 [![Made with Ruby](https://img.shields.io/badge/Made%20with-Ruby-blue.svg)](https://ruby-lang.org)
 [![ISC license](https://img.shields.io/badge/License-ISC-blue.svg)](#license)
