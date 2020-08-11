@@ -4,10 +4,12 @@
 [![Made with Ruby](https://img.shields.io/badge/Made%20with-Ruby-blue.svg)](https://ruby-lang.org)
 [![ISC license](https://img.shields.io/badge/License-ISC-blue.svg)](#license)
 
+Note that this is a fork and it is not published as a gem, however this is a great working example of using Ruby code to create a simple Jekyll plugin. Which could be added to RubyGems site or copied to a plugins folder.
+
 
 ## Sample usage
 
-Jekyll templating:
+Jekyll templating example using a hash variable.
 
 ```
 {% assign my_hash =  {'foo': 'bar', 'baz': 'buzz'} %}
@@ -28,7 +30,7 @@ In your Jekyll project, create a file as `_plugins/keys-filter.rb`.
 
 Copy the contents of [keys-filter.rb](/keys-filter.rb) to it.
 
-That plugin uses standard Ruby functionality of getting keys from a hash makes it available as a Jekyll filter called `keys`.
+That plugin uses standard Ruby functionality of getting keys from a hash - it makes that available as a Jekyll filter called `keys` as below.
 
 
 ## Usage
@@ -48,4 +50,4 @@ That plugin uses standard Ruby functionality of getting keys from a hash makes i
 
 Copyright for [keys-filter.rb](/keys-filter.rb) is held by [dalenys](https://github.com/dalenys/), 2016. All other copyright is held by [MichaelCurrin](https://github.com/MichaelCurrin/), 2020.
 
-- [LICENSE](/LICENSE)
+Released under [MIT](/LICENSE).
