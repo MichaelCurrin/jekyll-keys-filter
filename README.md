@@ -4,8 +4,7 @@
 [![Made with Ruby](https://img.shields.io/badge/Made%20with-Ruby-blue.svg)](https://ruby-lang.org)
 [![ISC license](https://img.shields.io/badge/License-ISC-blue.svg)](#license)
 
-Note that this is a fork and it is not published as a gem, however this is a great working example of using Ruby code to create a simple Jekyll plugin. Which could be added to RubyGems site or copied to a plugins folder.
-
+This a great example of using Ruby code to create a simple Jekyll plugin. Which could be added to RubyGems site or copied to a plugins folder. I forked this project so I could keep a copy of the plugin and improve its docs.
 
 ## Sample usage
 
