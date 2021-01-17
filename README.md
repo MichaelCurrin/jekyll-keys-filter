@@ -49,4 +49,4 @@ That plugin uses standard Ruby functionality of getting keys from a hash - it ma
 
 Copyright for [keys-filter.rb](/keys-filter.rb) is held by [@dalenys](https://github.com/dalenys), 2016. All other copyright is held by [@MichaelCurrin](https://github.com/MichaelCurrin), 2020.
 
-Released under [MIT](/LICENSE).
+Released under [ISC](/LICENSE).
