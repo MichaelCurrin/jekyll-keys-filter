@@ -4,13 +4,16 @@
 [![Made with Ruby](https://img.shields.io/badge/Made_with-Ruby-blue?logo=ruby)](https://ruby-lang.org)
 [![ISC license](https://img.shields.io/badge/License-ISC-blue.svg)](#license)
 
-This a great example of using Ruby code to create a simple Jekyll plugin. Which could be added to RubyGems site or copied to a plugins folder. I forked this project so I could keep a copy of the plugin and improve its docs.
+This a great example of using Ruby code in just a single script to create a simple Jekyll plugin. Which could be added to RubyGems site or copied directly to your Jekyll plugins directory.
+
+I forked this project so I could keep a copy of the plugin and improve its docs.
+
 
 ## Sample usage
 
 Jekyll templating example using a hash variable.
 
-```
+```liquid
 {% assign my_hash =  {'foo': 'bar', 'baz': 'buzz'} %}
 
 {{ my_hash | keys | join: ', ' }}
@@ -34,7 +37,7 @@ That plugin uses standard Ruby functionality of getting keys from a hash - it ma
 
 ## Usage
 
-```
+```liquid
 {{ my_hash | keys }}
 ```
 
