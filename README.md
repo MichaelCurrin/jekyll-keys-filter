@@ -65,8 +65,8 @@ The value will be the keys as an array of strings.
 
 Released under [ISC](/LICENSE).
 
-Copyright for [keys-filter.rb](/keys-filter.rb) is held by [@dalenys](https://github.com/dalenys), 2016. The early commits are by [@nemenemsrouge](https://github.com/nemenemsrouge). 
+Copyright for [keys-filter.rb](/keys-filter.rb) is held by [@dalenys](https://github.com/dalenys). The early commits here are by [@nemenemsrouge](https://github.com/nemenemsrouge). 
 
-All other copyright is held by [@MichaelCurrin](https://github.com/MichaelCurrin), 2020.
+All other copyright is held by [@MichaelCurrin](https://github.com/MichaelCurrin).
 
 I forked this project so I could keep a copy of the plugin and improve its docs. The original repo was taken off of GitHub.
