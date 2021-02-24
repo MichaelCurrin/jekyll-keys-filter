@@ -6,8 +6,6 @@
 
 This a great example of using Ruby code in just a single script to create a simple Jekyll plugin. Which could be added to RubyGems site or copied directly to your Jekyll plugins directory.
 
-I forked this project so I could keep a copy of the plugin and improve its docs.
-
 
 ## Sample usage
 
@@ -50,6 +48,10 @@ That plugin uses standard Ruby functionality of getting keys from a hash - it ma
 
 ## License
 
-Copyright for [keys-filter.rb](/keys-filter.rb) is held by [@dalenys](https://github.com/dalenys), 2016. All other copyright is held by [@MichaelCurrin](https://github.com/MichaelCurrin), 2020.
-
 Released under [ISC](/LICENSE).
+
+Copyright for [keys-filter.rb](/keys-filter.rb) is held by [@dalenys](https://github.com/dalenys), 2016. The early commits are by [@nemenemsrouge](https://github.com/nemenemsrouge). 
+
+All other copyright is held by [@MichaelCurrin](https://github.com/MichaelCurrin), 2020.
+
+I forked this project so I could keep a copy of the plugin and improve its docs. The original repo was taken off of GitHub.
