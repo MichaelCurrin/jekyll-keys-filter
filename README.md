@@ -11,7 +11,10 @@ How to use gem like this:
 - Package as a Ruby gem, with a gemspec file.
     - Publish to RubyGems for installation using `gem` or `bundle` commands. 
     - Provide instructions for installing your gem using a GitHub URL instead, using the same install commands.
-- Copy the Ruby script directly to your Jekyll plugins directory - `_plugins`. Then use in your Jekyll code or run with `bundle exec ruby _plugins/script.rb`.
+- Copy the Ruby script directly to your Jekyll plugins directory - `_plugins`. Then use in your Jekyll code, or run with:
+    ```sh
+    $ bundle exec ruby _plugins/script.rb
+   ```
 
 Note that regardless of which flow you use, custom gems outside of the standard are considered unsafe and unsupported on GitHub Pages.
 
